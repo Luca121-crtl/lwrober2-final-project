@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Greystar Living Hub – Student Apartments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Greystar Living Hub is a simple student apartment finder that helps students explore Greystar-managed communities near campus and learn what to expect when renting."
+  />
+  <meta
+    name="keywords"
+    content="student apartments, Greystar, student housing, off-campus housing, rentals"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-mark">GL</span>
+      <span class="logo-text">Greystar Living Hub</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="apartments.html">Apartments</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME / HERO -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Helping Students Find Greystar-Managed Apartments</h1>
+        <p>
+          Greystar Living Hub is a simple starting point for students who want
+          clean, reliable off-campus housing near campus. This project site
+          brings example communities, key details, and basic renting info into
+          one place so the process feels less overwhelming.
+        </p>
+        <p>
+          This is a class project, not an official Greystar site, but it is
+          designed to look and feel like a small housing hub that a student
+          could actually use.
+        </p>
+        <a href="apartments.html" class="btn">View Apartment Options</a>
+      </div>
+
+      <div class="hero-media">
+        <!-- Hero image: Union Tempe -->
+        <img
+          src="union-tempe.jpg"
+          alt="Union Tempe student apartments near Arizona State University."
+          class="hero-image"
+        >
+      </div>
+    </section>
+
+    <!-- VIDEO SECTION -->
+    <section class="section video-section">
+      <h2>Inside Student Living</h2>
+      <p class="section-intro">
+        This sample video gives a quick feel for modern student apartments,
+        similar to the style of communities like Maplewood Student Apartments,
+        Riverside Hall, and Highland Commons. In a real site, this could be a
+        short tour of a Greystar-managed community near campus.
+      </p>
+
+      <!-- Video file from your folder -->
+      <video class="promo-video" controls>
+        <source src="135141-761273478_small.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- APARTMENTS SECTION (short preview) -->
+    <section id="apartments" class="section">
+      <h2>Featured Student Apartments</h2>
+      <p class="section-intro">
+        Here are a few example communities. Visit the full Apartments page
+        to compare details like starting rent, distance from campus, and amenities.
+      </p>
+
+      <div class="card-grid">
+        <!-- Maplewood -->
+        <article class="card">
+          <h3>Maplewood Student Apartments</h3>
+          <img
+            src="apartment-2094661_1280.jpg"
+            alt="Interior of a modern student apartment living room."
+            class="apt-image"
+          >
+          <p>
+            Tempe, AZ community with 1–3 bedroom options, study lounges,
+            and on-site fitness. Great for students who want to be close to campus.
+          </p>
+          <p>
+            <a href="apartments.html">Compare Maplewood Details</a>
+          </p>
+        </article>
+
+        <!-- Riverside Hall -->
+        <article class="card">
+          <h3>Riverside Hall</h3>
+          <img
+            src="apartment-2094645_1280.jpg"
+            alt="Bright student apartment interior with kitchen and living space."
+            class="apt-image"
+          >
+          <p>
+            Austin, TX community with modern interiors, in-unit laundry, and
+            easy access to bus routes. Balanced mix of privacy and shared spaces.
+          </p>
+          <p>
+            <a href="apartments.html">Compare Riverside Details</a>
+          </p>
+        </article>
+
+        <!-- Highland Commons -->
+        <article class="card">
+          <h3>Highland Commons</h3>
+          <img
+            src="apartment-2094645_1280.jpg"
+            alt="Student apartment common area with seating and accent wall."
+            class="apt-image"
+          >
+          <p>
+            Tempe, AZ property with furnished units, high-speed internet,
+            and group study rooms for students who like to study near home.
+          </p>
+          <p>
+            <a href="apartments.html">Compare Highland Details</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESOURCES SECTION (short) -->
+    <section id="resources" class="section section-alt">
+      <h2>Student Renter Resources</h2>
+      <p class="section-intro">
+        Renting your first apartment can feel confusing, especially if you’ve
+        never signed a lease before. This project highlights what to think about
+        before you sign. For more details, check out the Resources page.
+        You can also visit
+        <a href="https://www.greystar.com" target="_blank">
+          Greystar’s official website
+        </a>
+        to explore real communities.
+      </p>
+    </section>
+
+    <!-- CONTACT SECTION (preview) -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="section-intro">
+        This is a practice contact form for the project. Imagine this as a way
+        for students to ask questions about Greystar-managed housing or get
+        help comparing options.
+      </p>
+
+      <p class="section-intro">
+        You can also reach the project creator directly at
+        <a href="mailto:lwrober2@asu.edu">lwrober2@asu.edu</a>.
+      </p>
+
+      <form class="contact-form" action="#" method="post">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required>
+        </label>
+
+        <label>
+          Preferred City
+          <select name="city">
+            <option value="">Select a city</option>
+            <option value="tempe">Tempe, AZ</option>
+            <option value="austin">Austin, TX</option>
+            <option value="denver">Denver, CO</option>
+            <option value="other">Other / Not Listed</option>
+          </select>
+        </label>
+
+        <label>
+          What are you looking for?
+          <textarea
+            name="message"
+            rows="4"
+            placeholder="Tell us about your budget, move-in date, and what kind of place you want."
+          ></textarea>
+        </label>
+
+        <button type="submit" class="btn">Send Message (Demo)</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      &copy; 2025 Greystar Living Hub. Class project website created by Lucas Robertson.
+      Contact:
+      <a href="mailto:lwrober2@asu.edu">lwrober2@asu.edu</a>
+    </p>
+  </footer>
+</body>
+</html>
