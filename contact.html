@@ -6,8 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
-    content="Contact the creator of Greystar Living Hub with questions about the student housing project site."
+    content="Contact form for the Greystar Living Hub class project, where students can ask questions about sample student apartments."
   />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BS2NE2543X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-BS2NE2543X');
+  </script>
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -26,18 +36,15 @@
 
   <main>
     <section class="section">
-      <h2>Contact the Project Creator</h2>
+      <h2>Contact & Interest Form</h2>
       <p class="section-intro">
-        This page represents how a real housing hub might collect questions from
-        students. For this class project, the form does not send data anywhere,
-        but it demonstrates how a basic contact experience could look.
+        This is a practice contact page for the Greystar Living Hub project.
+        Imagine this as a way for students to ask questions or share what they
+        are looking for in an off-campus apartment.
       </p>
 
       <p class="section-intro">
-        If this were a live site, students could use this form to ask about
-        availability, tour times, or how to start an application at a
-        Greystar-managed community. For project questions, you can reach the
-        creator directly at
+        You can also email the project creator directly at
         <a href="mailto:lwrober2@asu.edu">lwrober2@asu.edu</a>.
       </p>
 
@@ -53,22 +60,37 @@
         </label>
 
         <label>
+          Phone
+          <input type="tel" name="phone" placeholder="(555) 555-5555">
+        </label>
+
+        <label>
           Preferred Property
           <select name="property">
             <option value="">Select a property</option>
             <option value="maplewood">Maplewood Student Apartments</option>
             <option value="riverside">Riverside Hall</option>
             <option value="highland">Highland Commons</option>
-            <option value="other">Other / Not sure</option>
+            <option value="not_sure">Not sure yet</option>
           </select>
         </label>
 
         <label>
-          Message
+          Target Move-In Date
+          <input type="date" name="move_in">
+        </label>
+
+        <label>
+          Monthly Budget for Rent (approx.)
+          <input type="number" name="budget" placeholder="Example: 1200">
+        </label>
+
+        <label>
+          What are you looking for?
           <textarea
             name="message"
             rows="4"
-            placeholder="Ask about tours, pricing, move-in dates, or general questions."
+            placeholder="Tell us about your budget, roommates, and must-have amenities."
           ></textarea>
         </label>
 
